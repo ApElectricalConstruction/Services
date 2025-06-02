@@ -17,19 +17,18 @@
     }
     header {
       background: #004080;
-      color: #fff;
+      color: white;
       padding: 15px 20px;
       display: flex;
       align-items: center;
-      gap: 2px; /* tight gap */
+      gap: 20px;  /* space between logo and text */
       flex-wrap: wrap;
-      text-align: center;
-      justify-content: center;
+      text-align: left;
+      justify-content: flex-start;
     }
     .logo {
-      max-height: 170px;
-      width: auto;
-      flex-shrink: 0;
+      max-height: 150px;  /* fixed size for logo */
+      width: auto;  /* maintain aspect ratio */
     }
     .header-text {
       flex: 1 1 300px;
@@ -91,7 +90,6 @@
 
 <header>
   <img src="Logo new.jpg" alt="AP Electrical Logo" class="logo" />
-
   <div class="header-text">
     <h1>AP Electrical and Construction Services</h1>
     <p>Woodworking, Welding Works, Electrical Installation / Troubleshooting & Construction Design / Planning</p>
@@ -109,7 +107,7 @@
 <div class="container">
   <h2>Welcome to AP Electrical and Construction Services</h2>
   <p>We provide reliable and high-quality services in the fields of woodworking, welding, electrical installation, and construction design. Whether you're looking to install new lighting or build custom furniture, we are your trusted partner.</p>
-
+  
   <h3>Our Expertise</h3>
   <ul>
     <li>Custom Woodworking</li>
