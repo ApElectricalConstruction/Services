@@ -5,13 +5,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Products - AP Electrical</title>
   <style>
-    body {
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
       font-family: Arial, sans-serif;
       color: #333;
       background: #f9f9f9;
     }
+    header, nav {
+      width: 100%;
+      margin: 0;
+      padding-left: 20px;
+      padding-right: 20px;
+      box-sizing: border-box;
+    }
     header {
-      background: #004080;
+      background-color: #004080;
       color: white;
       padding: 15px 20px;
       display: flex;
@@ -43,7 +53,7 @@
       line-height: 1.3;
     }
     nav {
-      background: #003366;
+      background-color: #003366;
       display: flex;
       justify-content: center;
       flex-wrap: wrap;
@@ -64,20 +74,22 @@
       color: #003366;
       outline: none;
     }
+    .container {
+      margin: 20px auto;
+      padding: 20px;
+      max-width: 1000px;
+      width: 100%;
+      background: white;
+      border-radius: 6px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      box-sizing: border-box;
+    }
     footer {
       text-align: center;
       padding: 20px 15px;
       background: #003366;
       color: white;
       font-size: 14px;
-    }
-    .container {
-      margin: 20px auto;
-      padding: 20px;
-      max-width: 1000px;
-      background: white;
-      border-radius: 6px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     }
   </style>
 </head>
@@ -102,17 +114,17 @@
 <div class="container">
   <h2>Our Products</h2>
   <div class="product-item">
-    <img src="https://via.placeholder.com/300x200?text=Custom+Wooden+Table" alt="Custom Wooden Table">
+    <img src="https://via.placeholder.com/300x200?text=Custom+Wooden+Table" alt="Custom Wooden Table" />
     <h3>Custom Wooden Table</h3>
     <p>Handcrafted tables made from premium wood, tailored to your design preferences.</p>
   </div>
   <div class="product-item">
-    <img src="https://via.placeholder.com/300x200?text=Welded+Gate" alt="Welded Gate">
+    <img src="https://via.placeholder.com/300x200?text=Welded+Gate" alt="Welded Gate" />
     <h3>Welded Gates</h3>
     <p>Durable and stylish gates designed to enhance your property’s security and curb appeal.</p>
   </div>
   <div class="product-item">
-    <img src="https://via.placeholder.com/300x200?text=LED+Lighting+Installation" alt="LED Lighting Installation">
+    <img src="https://via.placeholder.com/300x200?text=LED+Lighting+Installation" alt="LED Lighting Installation" />
     <h3>LED Lighting Installation</h3>
     <p>Energy-efficient lighting solutions that brighten your home or workspace.</p>
   </div>
